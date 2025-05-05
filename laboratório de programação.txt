@@ -1,0 +1,33 @@
+# Crie uma lista vazia
+lista_compras = []
+
+# Adicione os itens à lista de compras
+lista_compras = ["goma", "pão", "arroz", "macarrão"]
+
+# João percebe que esqueceu de adicionar um item.
+lista_compras[1:1] = ["ovos"]
+
+# Exiba a lista de compras completa e mostre o terceiro item
+print("Lista de compras completa:", lista_compras)
+print("Terceiro item da lista:", lista_compras[2])
+
+# João decide que não precisa mais comprar um item.
+lista_compras.remove("arroz")
+
+# Ele também decide retirar o último item da lista
+lista_compras.pop()
+
+# Substituir o primeiro item da lista por "abacate"
+lista_compras[0] = "abacate"
+
+# Mostrar a lista atualizada
+print("\nLista atualizada:", lista_compras)
+
+# Exibir cada item individualmente
+print("\nItens na lista:")
+for item in lista_compras:
+    print("-", item)
+
+# Organizar a lista em ordem
+lista_compras.sort()
+print("\nLista organizada em ordem :", lista_compras)
